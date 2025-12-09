@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Location - The Golden Star Myanmar Cuisine</title>
+    <meta name="description" content="Visit The Golden Star near Otsuka Station, Tokyo. Make a reservation or contact us for inquiries.">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div id="page">
+        
+        <!-- Header & Navigation -->
+        <div id="header">
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="/Users/minnthanthmue/Downloads/Gemini_Generated_Image_mfw9wbmfw9wbmfw9.png" alt="The Golden Star Logo">
+                </a>
+                <ul id="navigation">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu">
+                        <a href="about.html">About</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="menu.html">Our Menu</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="blog.html">Blog & News</a>
+                        <ul class="secondary">
+                            <li>
+                                <a href="singlepost.html">Single Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="selected">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Page Content -->
+        <div id="body" class="contact">
+            
+            <!-- Page Header -->
+            <div class="header">
+                <div>
+                    <h1>Contact & Visit Us</h1>
+                </div>
+            </div>
+            
+            <!-- Map Section with Info Box -->
+            <div class="body">
+                <div>
+                    <div class="contact-box">
+                        <h1>Find Us Near Otsuka Station</h1>
+                        <p><strong>Address:</strong><br>
+                        Tokyo-to, Toshima-ku<br>
+                        Minami-Otsuka 2-33-3, 1F</p>
+                        
+                        <p><strong>Nearest Station:</strong><br>
+                        Otsuka Station (JR Yamanote Line)<br>
+                        3 minute walk</p>
+                        
+                        <p><strong>Phone:</strong><br>
+                        <a href="tel:03-XXXX-XXXX">03-XXXX-XXXX</a></p>
+                        
+                        <p><strong>Email:</strong><br>
+                        <a href="mailto:info@thegoldenstar.jp">info@thegoldenstar.jp</a></p>
+                        
+                        <p style="margin-top: 24px;"><strong>Operating Hours:</strong><br>
+                        Lunch: 11:30 AM - 2:00 PM<br>
+                        Dinner: 5:00 PM - 10:00 PM<br>
+                        Closed on Tuesdays</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Location Photo Section -->
+            <div class="body" style="background-color: #FFF; padding: 0;">
+                <div style="max-width: 1200px; margin: 0 auto; padding: 60px 40px;">
+                    <h2 style="text-align: center; color: #8B1538; font-size: 32px; margin-bottom: 16px; font-weight: 400;">Our Location in Tokyo</h2>
+                    <p style="text-align: center; color: #4A3F35; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                        Located in the vibrant Otsuka neighborhood, our restaurant is easily accessible from anywhere in Tokyo.
+                    </p>
+                    
+                    <div class="feature-image-container" style="margin-bottom: 24px;">
+                        <img src="/Users/minnthanthmue/Downloads/IMG_0939.JPG" alt="The Golden Star restaurant exterior in Otsuka, Tokyo">
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px;">
+                        <div style="text-align: center; padding: 24px; background-color: #FDF8F0; border: 1px solid #E8E4DF;">
+                            <h3 style="color: #8B1538; font-size: 18px; margin-bottom: 12px; font-weight: 500;">Easy Access</h3>
+                            <p style="font-size: 14px; color: #4A3F35; margin: 0;">Just 3 minutes walk from Otsuka Station on the JR Yamanote Line</p>
+                        </div>
+                        <div style="text-align: center; padding: 24px; background-color: #FDF8F0; border: 1px solid #E8E4DF;">
+                            <h3 style="color: #8B1538; font-size: 18px; margin-bottom: 12px; font-weight: 500;">Cozy Ambiance</h3>
+                            <p style="font-size: 14px; color: #4A3F35; margin: 0;">Warm, inviting atmosphere perfect for both casual meals and special occasions</p>
+                        </div>
+                        <div style="text-align: center; padding: 24px; background-color: #FDF8F0; border: 1px solid #E8E4DF;">
+                            <h3 style="color: #8B1538; font-size: 18px; margin-bottom: 12px; font-weight: 500;">Ground Floor</h3>
+                            <p style="font-size: 14px; color: #4A3F35; margin: 0;">Accessible location on the first floor with clear signage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form Section -->
+            <div class="footer">
+                
+                <!-- Contact Form -->
+                <div class="contact-form-area">
+                    <h1>Reservation & Inquiry</h1>
+                    <p style="margin-bottom: 32px;">Whether you're looking to book a table for a special occasion or have questions about our menu, please reach out! Our team is ready to help you plan your authentic Myanmar dining experience.</p>
+                    
+                    <form action="submit_inquiry.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="subject" placeholder="Subject (e.g., Reservation, General Question)" required>
+                        <textarea name="message" placeholder="Please share your inquiry or reservation details (Date, Time, Number of Guests)." required></textarea>
+                        <input type="submit" value="Send Message" id="submit">
+                    </form>
+                </div>
+                
+                <!-- Additional Information Sidebar -->
+                <div class="sidebar">
+                    <h1>Visit Information</h1>
+                    <p>We welcome walk-ins, but reservations are recommended, especially for dinner service and weekends.</p>
+                    
+                    <h1 style="margin-top: 32px;">Directions</h1>
+                    <ul>
+                        <li>Exit Otsuka Station North Exit</li>
+                        <li>Turn right and walk along the main road</li>
+                        <li>Look for our golden sign on the left</li>
+                        <li>We're on the ground floor</li>
+                    </ul>
+                    
+                    <h1 style="margin-top: 32px;">Parking</h1>
+                    <p>Limited street parking available. We recommend using public transportation.</p>
+                    
+                    <h1 style="margin-top: 32px;">Groups & Events</h1>
+                    <p>We can accommodate groups up to 20 people. Please contact us in advance for party reservations or special events.</p>
+                    
+                    <div style="margin-top: 32px; padding: 24px; background-color: #8B1538; color: #FFF;">
+                        <h1 style="color: #FFF; margin-bottom: 16px;">Google Maps</h1>
+                        <p style="font-size: 13px; color: #FFF; margin-bottom: 12px;">Get precise directions to our restaurant</p>
+                        <a href="https://maps.google.com" target="_blank" style="color: #D4AF37; text-decoration: underline; font-size: 14px;">Open in Google Maps →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div id="footer">
+            <div>
+                <p>&copy; ID-24229562,NAME- MINN THANT HMUE</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
