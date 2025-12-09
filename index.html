@@ -111,17 +111,32 @@
                 </div>
             </div>
         </div>
-        <!--Hello, enjoy our Myanmar Cuisine-->
-        <script>
-            window.onload = function () {alert ("Hello, Enjoy Our traditional Cuisine!")};
-        </script>
+       <div id="popup" style="
+       position:fixed;
+       top: 20px;
+       background: white;
+       padding: 20px;
+       border-radius: 10px;
+       box-shadow: 0 0 15px rgba(0,0,0,2);
+       display: none;
+       font-family: sans-serif;
+       max-width: 250px;
+       ">
+       Welcome to our Myanmar Restaurant! Enjoy authentic Burmeser flavors and warm hospitality.
+    </div>
+       <script>
+            window.onload = function () {const box=document.getElementbyId("popup");
+            box.style.display ="block";
+            setTimeout(()) box.style.display="none,4000)";};
+            </script>
         </body>
         </html>
         
         <!-- Footer -->
         <div id="footer">
             <div>
-                <p>&copy; ID-24229562,NAME- MINN THANT HMUE.</p>
+                <p>&copy; 2025 The Golden Star Restaurant
+                    ID-24229562,NAME- MINN THANT HMUE.</p>
 				<p>
 					<a href="https://freewebsitetemplates.com/preview/frozenyogurtshop/index.html">Original Template</a>
 				</p>
